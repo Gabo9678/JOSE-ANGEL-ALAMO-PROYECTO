@@ -1,0 +1,38 @@
+---
+import Header from '../components/header.astro'
+import Carousel from '../components/Carousel.jsx';
+import Nosotros from '../components/Nosotros.astro'
+import Footer from '../components/footer.astro';
+import Historia from '../components/Historia.astro'
+import Objetivos from '../components/Objetivos.astro'
+import Documental from '../components/Documental.astro'
+import Contacto from '../components/Contacto.astro'
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	</head>
+	<body class="font-roboto m-0 p-0 text-justify">
+		<Carousel client:only/> 
+		<Nosotros></Nosotros>
+		<Historia/>
+		<Objetivos/>
+		<Documental></Documental>
+		<Contacto></Contacto>
+		<Footer/>
+
+	<!--
+	Author: Gabriel Molina
+	email: gabomolina9678@gmail.com	
+	-->
+		
+	</body>
+</html>

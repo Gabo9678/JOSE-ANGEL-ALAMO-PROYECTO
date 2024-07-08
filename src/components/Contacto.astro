@@ -1,0 +1,94 @@
+---
+
+---
+
+<section class="w-full py-8 md:py-16 px-4 md:px-8" id="contacto ">
+  <div class="w-full max-w-7xl px-4 md:px-20">
+    <h2 class="text-2xl md:text-4xl text-[#000000] font-bold mb-4">UBICACIÓN</h2>
+    <!-- <div class="flex flex-col md:flex-row gap-8">
+      <div class="bg-white p-8 rounded shadow-2xl w-full md:flex-grow mx-auto">
+        <h2 class="text-2xl font-semibold mb-4">Formulario</h2>
+        <form action="#" method="POST">
+          <div class="grid grid-cols-2 gap-4">
+            <div>
+              <label for="firstName" class="block text-sm font-medium text-gray-700">Nombre</label>
+              <input type="text" id="firstName" name="firstName" class="mt-1 p-2 w-full border rounded-md">
+            </div>
+            <div>
+              <label for="lastName" class="block text-sm font-medium text-gray-700">Apellido</label>
+              <input type="text" id="lastName" name="lastName" class="mt-1 p-2 w-full border rounded-md">
+            </div>
+          </div>
+          <div class="mt-4">
+            <label for="email" class="block text-sm font-medium text-gray-700">Correo Electrónico</label>
+            <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded-md">
+          </div>
+          <div class="mt-4">
+            <label for="mensaje" class="block text-sm font-medium text-gray-700">Mensaje</label>
+            <input type="text" id="mensaje" name="mensaje" class="mt-1 p-2 w-full border rounded-md">
+          </div>
+          <div class="mt-6">
+            <button type="submit" class="w-full p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600">Enviar</button>
+          </div>
+        </form>
+      </div> -->
+      <!-- Ubicación del sitio -->
+      <div class="bg-white p-8 rounded shadow-2xl w-full flex justify-center items-center">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15691.771240199723!2d-66.907694!3d10.5051708!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5ed24b90a799%3A0xeab7ed0c0f2fb882!2zTGljZW8gSm9zw6kgw4FuZ2VsIMOBbGFtbw!5e0!3m2!1sen!2sve!4v1720313819801!5m2!1sen!2sve" width="1000" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h1 class="text-center text-4xl  font-bold">TENEMOS <br> INSTAGRAM!</h1>
+
+<div class="contact flex flex-col items-center justify-center w-full relative">
+    <div class="mockup-phone mx-auto my-12 mb-28">
+        <div class="camera"></div>
+        <div class="display">
+            <div class="artboard artboard-demo phone-1 bg-white">
+                <img src="../../img/instagram.jpg" alt="Imagen de inicio de instagram" class="object-position-custom object-cover w-full h-full object-top">
+            </div>
+        </div>
+    </div>
+    <div class="md:absolute md:right-0 md:mr-10 md:top-1/2 transform -translate-y-1/2 text- justify-center text-center">
+        <p class="text-3xl font-bold">
+          SOLICITA INFORMACIÓN 
+          <br>
+          @uenjoseangelalamo
+        </p>
+    </div>
+</div>
+
+
+
+	<style>
+		@keyframes show {
+			from{
+				opacity: 0;
+				scale: 25%;
+			}
+
+			to {
+				opacity: 1;
+				scale: 100%;
+			}
+		}
+
+		.contact {
+				view-timeline-name: --image;
+				view-timeline-axis: block;
+
+				animation-timeline: --image;
+				animation-name: show;
+
+        animation-range: entry 1% cover 50%;
+			}
+
+    .object-position-custom {
+        object-position: center -10%;
+    }
+		</style>
+
+
+

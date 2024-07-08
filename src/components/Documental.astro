@@ -1,0 +1,49 @@
+---
+
+
+---
+
+<section class="slide-in-from-left w-full py-8 md:py-16 px-4 md:px-8 bg-[#00b2dd] flex flex-col md:flex-row justify-center md:justify-between" id="documental">
+  <div class="w-full max-w-5xl px-4 md:px-20 flex flex-col md:flex-row items-center">
+    <div class="w-full md:w-1/2 md:pr-8 mb-8 md:mb-0 text-center md:text-left"> <!-- Columna del texto -->
+      <h2 class="text-2xl md:text-4xl text-[#ffffff] font-bold mb-4">DOCUMENTAL</h2>
+      <p class="text-lg text-[#ffffff] leading-relaxed md:max-w-xl"> <!-- Ajuste del ancho máximo del texto -->
+        Este documental fue creado por los estudiantes de informática del IUTA Jorge Torres, Gabriel Molina, Santiago Ruiz, Luis Roque y Sebastián Becerra. Quienes pusieron su empeño, dedicación y esfuerzo en brindar un documental que refleje la historia, la dedicación y la vida estudiantil dentro del liceo José Ángel Álamo.
+        <br><br>
+        A lo largo del documental, se presentan entrevistas con alumnos que comparten sus experiencias y recuerdos, así como con profesores que han dedicado años a la enseñanza y formación de jóvenes. 
+      </p>
+    </div>
+    <div class="video w-full md:w-[50%] justify-center items-center mr-8 md:mr-0 md:pl-20"> <!-- Columna del video -->
+      <iframe width="600" height="350" src="https://www.youtube.com/embed/L8xAYHUUq60?si=E3SjTLnX1FMsaugU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+
+
+<style>
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-from-left {
+  view-timeline-name: --slide-in-from-left;
+  view-timeline-axis: block;
+  
+  animation-timeline: --slide-in-from-left;
+  animation-name: slideInFromLeft;
+  animation-duration: 3s;
+  animation-range: entry 1% cover 50%;
+}
+
+</style>
+
+  
+  

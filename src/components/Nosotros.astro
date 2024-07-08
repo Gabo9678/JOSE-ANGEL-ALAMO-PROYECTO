@@ -1,0 +1,60 @@
+---
+
+---
+
+<!-- 
+<section class="w-full py-8 px-4 flex items-center align-middle ">
+  <div class="w-full max-w-5xl px-10 md:px-20" >
+    <h2 class="text-4xl text-[#ffd60f] font-bold mb-4">NOSOTROS</h2>
+    <p class="text-xl leading-relaxed text-justify">
+      Somos una institución que busca desarrollar y exponer el máximo potencial de nuestros estudiantes, brindándoles una educación integral y de calidad. Nos dedicamos a formar individuos
+      responsables, éticos y comprometidos, capaces de enfrentar los desafíos del mundo moderno.
+      Fomentamos el pensamiento crítico, la creatividad y el espíritu de colaboración, preparando a
+      nuestros alumnos para ser líderes en sus comunidades y profesionales exitosos en sus respectivas áreas.
+    </p>
+  </div>
+  <div class="w-1/2 pl-8">
+    <img src="../../img/carrusel1.jpg" alt="Imagen de la institución" class="rounded-lg shadow-lg object-cover w-[85%] h-3/4" />
+  </div>
+</section>
+-->
+
+
+<section class="w-full py-20 md:py-16 px-4 md:px-8 flex flex-col items-center md:flex-row-reverse" id="nosotros">
+  <div class="w-full max-w-5xl px-4 md:px-20 text-center md:text-left mb-8 md:mb-0">
+    <h2 class="text-2xl md:text-4xl text-[#000000] font-bold mb-4">NOSOTROS</h2>
+    <p class="text-lg text-justify text-[#000000] leading-relaxed">
+      Nuestra institución se esfuerza por desarrollar y potenciar al máximo las habilidades de nuestros estudiantes, proporcionándoles una educación completa y de alta calidad. Nos enfocamos en formar individuos responsables, éticos y comprometidos, capaces de afrontar los desafíos actuales. Promovemos el pensamiento crítico, la creatividad y el espíritu de colaboración, preparando a nuestros alumnos para liderar y destacar en sus futuras áreas profesionales.
+    </p>
+  </div>
+  <div class="w-full md:pl-20">
+    <img src="../../img/carrusel5.jpg" alt="Imagen de la institución" class="shadow-lg object-cover w-full md:max-w-lg h-auto" style="margin-left: 5px;">
+  </div>
+</section>
+
+
+
+  
+
+<style>
+			@keyframes show {
+				from{
+					opacity: 0;
+					scale: 25%;
+				}
+				to{
+					opacity: 1;
+					scale: 100%;
+				}
+			}
+
+			img {
+				view-timeline-name: --image;
+				view-timeline-axis: block;
+
+				animation-timeline: --image;
+				animation-name: show;
+
+        animation-range: entry 1% cover 50%;
+			}
+		</style>
