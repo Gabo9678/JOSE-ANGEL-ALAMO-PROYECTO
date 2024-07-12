@@ -91,7 +91,7 @@ const Carousel = () => {
           <nav className="nav-links md:bg-transparent min-h-[60vh] md:text-white text-black md:w-auto w-full">
             <ul className="md:flex md:flex-row flex-col md:ml-12 md:items-center justify-center md:gap-14 pb-6 md:pb-0 bg-black md:bg-transparent z-[-1] md:w-auto w-full md:pl-0 pl-8 transition-all duration-500 ease-in md:top-0 md:visible">
               {Links.slice(0, 3).map((link) => (
-                <li key={link.name} className="md:ml-8 text-xl md:my-0 my-2">
+                <li key={link.name} className="text-xl font-light ">
                   <a
                     href={link.link}
                     className="hover:text-gray-500 hover:underline ease-in-out duration-500 transition"
@@ -100,15 +100,15 @@ const Carousel = () => {
                   </a>
                 </li>
               ))}
-              <li className="md:flex items-center justify-center ml-7 md:visible hidden">
+              <li className="md:flex items-center w-52 h-64 justify-centermd:visible hidden">
                 <img
                   src="../../img/alamo-blanco.png"
-                  className="w-32 mx-auto"
+                  className="w-full h-full mx-auto"
                   alt="Logo de la institución"
                 />
               </li>
               {Links.slice(3).map((link) => (
-                <li key={link.name} className="md:ml-8 text-xl md:my-0 my-2">
+                <li key={link.name} className="text-xl font-light">
                   <a
                     href={link.link}
                     className="hover:text-gray-500 hover:underline ease-in-out duration-300 transition"
