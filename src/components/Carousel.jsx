@@ -88,10 +88,10 @@ const Carousel = () => {
       {/* Resto del contenido (solo para versión web) */}
       <div className="md:flex hidden">
         <header className="absolute md:top-0 left-0 right-0 text-white w-full z-20 py-4 flex justify-center items-center gap-4">
-          <nav className="nav-links md:bg-transparent min-h-[60vh] md:text-white text-black md:w-auto w-full">
-            <ul className="md:flex md:flex-row flex-col md:ml-12 md:items-center justify-center md:gap-14 pb-6 md:pb-0 bg-black md:bg-transparent z-[-1] md:w-auto w-full md:pl-0 pl-8 transition-all duration-500 ease-in md:top-0 md:visible">
+          <nav className="nav-links flex md:bg-transparent min-h-[60vh] md:text-white text-black  w-full">
+            <ul className="flex items-center justify-between px-12 w-full lg:px-28 ">
               {Links.slice(0, 3).map((link) => (
-                <li key={link.name} className="text-xl font-light ">
+                <li key={link.name} className="lg:text-xl font-light">
                   <a
                     href={link.link}
                     className="hover:text-gray-500 hover:underline ease-in-out duration-500 transition"
@@ -100,7 +100,7 @@ const Carousel = () => {
                   </a>
                 </li>
               ))}
-              <li className="md:flex items-center w-52 h-64 justify-centermd:visible hidden">
+              <li className="md:flex items-center w-52 h-64 justify-center md:visible hidden">
                 <img
                   src="../../img/alamo-blanco.png"
                   className="w-full h-full mx-auto"
@@ -108,7 +108,7 @@ const Carousel = () => {
                 />
               </li>
               {Links.slice(3).map((link) => (
-                <li key={link.name} className="text-xl font-light">
+                <li key={link.name} className="lg:text-xl font-light">
                   <a
                     href={link.link}
                     className="hover:text-gray-500 hover:underline ease-in-out duration-300 transition"

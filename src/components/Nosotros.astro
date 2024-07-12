@@ -18,43 +18,50 @@
   </div>
 </section>
 -->
-
-
-<section class="w-full py-20 md:py-16 px-4 md:px-8 flex flex-col items-center md:flex-row-reverse" id="nosotros">
-  <div class="w-full max-w-5xl px-4 md:px-20 text-center md:text-left mb-8 md:mb-0">
+<section
+  class="w-full py-20 md:py-16 px-4 md:px-8 flex flex-col gap-10 items-center md:flex-row-reverse"
+  id="nosotros"
+>
+  <div class="w-full max-w-5xl text-center md:text-left mb-8 md:mb-0">
     <h2 class="text-2xl md:text-4xl text-[#000000] font-bold mb-4">NOSOTROS</h2>
     <p class="text-lg text-justify text-[#000000] leading-relaxed">
-      Nuestra institución se esfuerza por desarrollar y potenciar al máximo las habilidades de nuestros estudiantes, proporcionándoles una educación completa y de alta calidad. Nos enfocamos en formar individuos responsables, éticos y comprometidos, capaces de afrontar los desafíos actuales. Promovemos el pensamiento crítico, la creatividad y el espíritu de colaboración, preparando a nuestros alumnos para liderar y destacar en sus futuras áreas profesionales.
+      Nuestra institución se esfuerza por desarrollar y potenciar al máximo las
+      habilidades de nuestros estudiantes, proporcionándoles una educación
+      completa y de alta calidad. Nos enfocamos en formar individuos
+      responsables, éticos y comprometidos, capaces de afrontar los desafíos
+      actuales. Promovemos el pensamiento crítico, la creatividad y el espíritu
+      de colaboración, preparando a nuestros alumnos para liderar y destacar en
+      sus futuras áreas profesionales.
     </p>
   </div>
-  <div class="w-full md:pl-20">
-    <img src="../../img/carrusel5.jpg" alt="Imagen de la institución" class="shadow-lg object-cover w-full md:max-w-lg h-auto" style="margin-left: 5px;">
+  <div class="w-full h-full p-2 flex items-center shadow-2xl rounded-2xl">
+    <img
+      src="../../img/carrusel5.jpg"
+      alt="Imagen de la institución"
+      class="w-full h-full rounded-2xl"
+    />
   </div>
 </section>
 
-
-
-  
-
 <style>
-			@keyframes show {
-				from{
-					opacity: 0;
-					scale: 25%;
-				}
-				to{
-					opacity: 1;
-					scale: 100%;
-				}
-			}
+  @keyframes show {
+    from {
+      opacity: 0;
+      scale: 25%;
+    }
+    to {
+      opacity: 1;
+      scale: 100%;
+    }
+  }
 
-			img {
-				view-timeline-name: --image;
-				view-timeline-axis: block;
+  img {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
 
-				animation-timeline: --image;
-				animation-name: show;
+    animation-timeline: --image;
+    animation-name: show;
 
-        animation-range: entry 1% cover 50%;
-			}
-		</style>
+    animation-range: entry 1% cover 50%;
+  }
+</style>
