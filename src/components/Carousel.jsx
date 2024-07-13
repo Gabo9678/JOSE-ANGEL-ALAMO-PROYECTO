@@ -51,7 +51,7 @@ const Carousel = () => {
   return (
     <div className="max-w-[100%] h-[780px] m-auto relative group" id="inicio">
       {/* Header para responsive */}
-      <header className="md:hidden fixed top-0 left-0 right-0 bg-white w-full z-20 py-4 flex justify-between items-center px-4">
+      <header className="md:hidden fixed top-0 left-0 right-0  bg-white w-full z-20 py-4 flex justify-between items-center px-4">
         <div className="flex items-center">
           <span className="text-base font-bold ">U.E.N JOSE ANGEL ALAMO</span>
         </div>
@@ -82,7 +82,7 @@ const Carousel = () => {
 
       {/* Resto del contenido (solo para versión web) */}
       <div className="md:flex md:items-start hidden">
-        <header className="absolute md:top-0 left-0 right-0 text-white w-full z-20 py-4 flex justify-center items-center gap-4">
+        <header className="absolute md:top-0 top-0 left-1/2  translate-x-[-48%] text-white w-full z-20 py-4 flex justify-center items-center gap-4">
           <nav className="nav-links flex md:bg-transparent max-h-[70vh] md:text-white text-black  w-full">
             <ul className="flex items-center justify-between px-12 w-full max-h-[60vh] lg:px-28 ">
               {Links.slice(0, 3).map((link) => (
