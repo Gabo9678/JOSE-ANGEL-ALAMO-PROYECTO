@@ -53,7 +53,7 @@ const Carousel = () => {
       {/* Header para responsive */}
       <header className="md:hidden fixed top-0 left-0 right-0 bg-white w-full z-20 py-4 flex justify-between items-center px-4">
         <div className="flex items-center">
-          <span className="text-xl font-bold ">U.E.N JOSE ANGEL ALAMO</span>
+          <span className="text-base font-bold ">U.E.N JOSE ANGEL ALAMO</span>
         </div>
         <div onClick={() => setOpen(!open)} className="text-3xl cursor-pointer">
           {open ? <HiX /> : <HiOutlineMenu />}
