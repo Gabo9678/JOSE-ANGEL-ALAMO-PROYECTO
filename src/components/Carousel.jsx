@@ -42,7 +42,7 @@ const Carousel = () => {
     { name: "Historia", link: "#historia" },
     { name: "Objetivos", link: "#objetivos" },
     { name: "Documental", link: "#documental" },
-    { name: "Contacto", link: "#contacto" },
+    { name: "Ubicación", link: "#contacto" },
   ];
 
   // hover:text-gray-500 hover:underline ease-in-out duration-300 transition
