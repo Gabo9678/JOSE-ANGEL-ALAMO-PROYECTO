@@ -81,10 +81,10 @@ const Carousel = () => {
       </div>
 
       {/* Resto del contenido (solo para versión web) */}
-      <div className="md:flex hidden">
+      <div className="md:flex md:items-start hidden">
         <header className="absolute md:top-0 left-0 right-0 text-white w-full z-20 py-4 flex justify-center items-center gap-4">
-          <nav className="nav-links flex md:bg-transparent min-h-[60vh] md:text-white text-black  w-full">
-            <ul className="flex items-center justify-between px-12 w-full lg:px-28 ">
+          <nav className="nav-links flex md:bg-transparent max-h-[70vh] md:text-white text-black  w-full">
+            <ul className="flex items-center justify-between px-12 w-full max-h-[60vh] lg:px-28 ">
               {Links.slice(0, 3).map((link) => (
                 <li key={link.name} className="lg:text-xl font-light">
                   <a
